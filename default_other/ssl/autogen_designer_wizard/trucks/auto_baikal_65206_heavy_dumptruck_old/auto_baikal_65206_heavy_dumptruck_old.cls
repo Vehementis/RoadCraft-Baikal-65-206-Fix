@@ -5646,6 +5646,7 @@ properties   =   {
       leftWall   =   "_load_border_left"
       rightWall   =   "_load_border_right"
       frontWall   =   "_load_border_front"
+      backWall   =   "_load_border_rear"
       volumeMesh   =   "_load_volume"
       pourMultiplier   =   1.5
    }
@@ -5658,7 +5659,7 @@ properties   =   {
       angleToOpenLid   =   20
       minVolumeDifToForceLid   =   0.001
       minVolumeToForceLid   =   0.05
-      sandForceScalar   =   20
+      sandForceScalar   =   3
       motorMaxForce   =   1000
       dumpBodyName   =   "_load_volume"
       isRefiller   =   True
