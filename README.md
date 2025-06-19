@@ -24,6 +24,7 @@
 
 - the script will backup your files before deletion or override
 - if it fails you can use the backup to restore it or use steam to verify files
+- 7zip is required for the installer (https://www.7-zip.org/)
 
 ## Notes
 - This is just intended as a fix for the bug of the missing back wall.
