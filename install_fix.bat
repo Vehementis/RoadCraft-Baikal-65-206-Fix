@@ -73,7 +73,7 @@ if exist "root\paks\client\default\default_other.pak.cache" (
     if !errorlevel! equ 0 (
         echo [OK] Cache file backed up successfully
     ) else (
-        echo [ERROR] Failed to backup cache file
+        echo [WARNING] Failed to backup cache file
     )
 )
 
