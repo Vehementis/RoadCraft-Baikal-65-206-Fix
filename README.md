@@ -1,6 +1,6 @@
 # How to fix the truck:
 
-1. Download this Git repo as Zip
+1. Download this Git repo as Zip (top right green `<> Code` Button -> `Download ZIP`)
 2. Open `Steam` -> right klick `RoadCraft` -> `Settings` -> `Local Files` -> `Browse`
 3. navigate to `root` -> `paks` -> `client` -> `default`
 4. delete or rename `default_other.pak.cache` (if you dont do that the game will crash on start after changing the `default_other.pak`)
