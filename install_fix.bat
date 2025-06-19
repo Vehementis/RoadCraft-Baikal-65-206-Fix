@@ -6,6 +6,8 @@ echo RoadCraft Baikal 65-206 Fix Installer
 echo ========================================
 echo.
 
+set "ERROR_OCCURRED=0"
+
 :: Check if we're in the correct directory
 if not exist "default_other" (
     echo ERROR: default_other folder not found!
