@@ -16,7 +16,7 @@ $ErrorOccurred = $false
 # Check if we're in the correct directory
 if (-not (Test-Path "V3_config" -PathType Container)) {
     Write-Host "[ERROR] V3_config folder not found!" -ForegroundColor Red
-    Write-Host "  Please make sure you've extracted the RoadCraft-Dozer-Mod files" -ForegroundColor Yellow
+    Write-Host "  Please make sure you've extracted the RoadCraft-Mod files" -ForegroundColor Yellow
     Write-Host "  and placed this folder inside your RoadCraft installation directory." -ForegroundColor Yellow
     Write-Host ""
     Read-Host "Press Enter to exit"
