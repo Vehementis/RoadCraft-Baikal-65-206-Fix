@@ -4,7 +4,7 @@ Rem This works around .ps1 bad file association as non executables.
 PowerShell -Command "Get-Content '%~dpnx0' | Select-Object -Skip 5 | Out-String | Invoke-Expression"
 goto :eof
 # Start of PowerShell script here
-# RoadCraft V3 Dozer Mod Installer - PowerShell Version
+# RoadCraft V3 Mod Installer - PowerShell Version
 
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "RoadCraft V3 Mod Installer" -ForegroundColor Yellow
