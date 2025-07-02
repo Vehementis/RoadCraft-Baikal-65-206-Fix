@@ -7,7 +7,7 @@ goto :eof
 # RoadCraft V3 Dozer Mod Installer - PowerShell Version
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "RoadCraft V3 Dozer Flattening Mod Installer" -ForegroundColor Yellow
+Write-Host "RoadCraft V3 Mod Installer" -ForegroundColor Yellow
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
