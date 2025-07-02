@@ -18,6 +18,8 @@ if not exist "default_other" (
     exit /b 1
 )
 
+set "MOD_ROOT=%CD%"
+
 :: Find RoadCraft root directory (go up one level)
 cd ..
 set "ROADCRAFT_ROOT=%CD%"
@@ -55,7 +57,7 @@ echo 7-Zip found at: %SEVENZIP%
 echo.
 
 :: Create backup directory
-set "BACKUP_DIR=%ROADCRAFT_ROOT%\RoadCraft-Baikal-65-206-Fix-main\backup"
+set "BACKUP_DIR=%MOD_ROOT%\backup"
 if not exist "%BACKUP_DIR%" mkdir "%BACKUP_DIR%"
 
 echo Creating backup of original files...
@@ -137,7 +139,7 @@ if !errorlevel! equ 0 (
 )
 
 :: Return to original directory
-cd "%ROADCRAFT_ROOT%"
+cd "%MOD_ROOT%"
 
 echo.
 echo ========================================
