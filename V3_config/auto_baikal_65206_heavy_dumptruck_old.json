@@ -1,0 +1,17 @@
+{
+   "truckName": "auto_baikal_65206_heavy_dumptruck_old",
+   "truckFile": "ssl/autogen_designer_wizard/trucks/auto_baikal_65206_heavy_dumptruck_old/auto_baikal_65206_heavy_dumptruck_old.cls",
+   "modifications": [
+      {
+         "description": "Add Backwall",
+         "checkPattern": "backWall\\s*=",
+         "searchPattern": "(frontWall\\s*=\\s*\"_load_border_front\")",
+         "replacement": "frontWall   =   \"_load_border_front\"\n      backWall   =   \"_load_border_rear\""
+      },
+	  {
+         "description": "Reduce Sand force to 3",
+         "searchPattern": "(sandForceScalar\\s*=\\s*\\d+)",
+         "replacement": "sandForceScalar   =   3"
+      }
+   ]
+}
