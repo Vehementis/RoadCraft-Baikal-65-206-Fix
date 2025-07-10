@@ -4,10 +4,10 @@ Rem This works around .ps1 bad file association as non executables.
 PowerShell -Command "Get-Content '%~dpnx0' | Select-Object -Skip 5 | Out-String | Invoke-Expression"
 goto :eof
 # Start of PowerShell script here
-# RoadCraft V3 Dozer Mod Installer - PowerShell Version
+# RoadCraft V3 Mod Installer - PowerShell Version
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "RoadCraft V3 Dozer Flattening Mod Installer" -ForegroundColor Yellow
+Write-Host "RoadCraft V3 Mod Installer" -ForegroundColor Yellow
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -16,7 +16,7 @@ $ErrorOccurred = $false
 # Check if we're in the correct directory
 if (-not (Test-Path "V3_config" -PathType Container)) {
     Write-Host "[ERROR] V3_config folder not found!" -ForegroundColor Red
-    Write-Host "  Please make sure you've extracted the RoadCraft-Dozer-Mod files" -ForegroundColor Yellow
+    Write-Host "  Please make sure you've extracted the RoadCraft-Mod files" -ForegroundColor Yellow
     Write-Host "  and placed this folder inside your RoadCraft installation directory." -ForegroundColor Yellow
     Write-Host ""
     Read-Host "Press Enter to exit"
