@@ -1,3 +1,5 @@
+## UPDATE: in version 3.0 they added the line `backWall   =   "_load_border_rear"` to the config file. this mod is now deprecated.
+----------------------------------------------------------------------------
 # RoadCraft Baikal 65-206 Fix
 
 This mod fixes the missing back wall bug in the Baikal 65-206 heavy dump truck, preventing sand from spilling out the back.
